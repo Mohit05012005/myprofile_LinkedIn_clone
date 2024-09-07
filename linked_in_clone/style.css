@@ -1,0 +1,532 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #e9e5df;
+}
+.header{
+    background-color: #ffffff;
+}
+.inner_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 56px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* position: fixed;
+    margin-left: 299px;
+    margin-bottom: 1040px;
+    top: 0; */
+}
+.head_links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.one_link{
+    text-align: center;
+    padding: 8px;
+    font-size: 13px;
+    color: #00000099;
+}
+#mohit{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.edit{
+    padding-top: 3.5px;
+}
+.side{
+    padding-left: 15px;
+}
+
+.linked{
+    height: 46px;
+    width: 46px;
+}
+#search{
+      width: 250px;
+      height: 37px;
+     
+}
+.search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input[type="text"]{
+    border: none;
+}
+#search{
+    border: none;
+    padding-left: 12px;
+    border-radius: 5px;
+    background-color: #edf3f8;
+}
+#try_now{
+    padding-top: 14px;
+    max-width: 120px;
+}
+
+.main_content{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        max-width: 1120px;
+        margin: 0 auto;
+        gap: 2rem;
+        /* border: 15px solid black; */
+        /* padding: 2rem; */
+        margin-top: 25px;
+
+}
+.box_background{
+    background-image: url('https://media.licdn.com/dms/image/D5616AQGvofO5rG9vZA/profile-displaybackgroundimage-shrink_200_800/0/1698806166987?e=1714003200&v=beta&t=3oCqjcq8tnZ-ANlxQ9gx-Sp6s6Ym2Kkz9ykasgy6Em4');
+    background-position-y: 55%;
+    background-size: cover;
+    position: relative;
+    height: 50px;
+}
+
+#my_img{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    border: 2px solid white;
+    position:absolute;
+   top: 100px;
+   left: 290px;
+}
+
+.content_two{
+    background-color: rgb(246, 246, 247);
+}
+.content_three{
+    background-color: rgb(245, 246, 247);
+}
+.profile_description{
+    padding: 3.3rem 10px 15px 10px;
+   text-align: center;
+   border-bottom: 0.8px solid rgb(70, 69, 69);
+}
+.box_first{
+    padding: 20px;
+    background-color:white;
+    border-radius: 15px;
+}
+
+.describe{
+    padding-top: 7px;
+    font-size:12.7px;
+    color: #00000099;
+}
+.box_f{
+    display: flex;
+    /* justify-content:space-evenly; */
+    padding-top: 7px;
+    gap: 8px;
+    padding: 8px 0 12px 0;
+}
+.box_first{
+   padding-top: 10px;
+}
+#third_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#input_text{
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-left: 20px;
+
+}
+#input_text,.dash:hover,.once:hover,.change:hover,.svgs:hover,.items:hover{
+    background-color: #edf3f8;
+}
+
+.box_s{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+.svgs{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+.img_e{
+    width: 25px;
+    height: 20px;
+}
+#harami{
+    /* width: 400px; */
+    height: 1px;
+      background-color: #e9e5df;
+    
+}
+.profile_box{
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+.one_one{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px 0 5px;
+    font-size: 15px;
+}
+.profile_box_one{
+    
+    margin: 0;
+    color: #00000099;
+    padding: 5px 5px 6px 14px;
+    /* font-size: 12px; */
+}
+.dash{
+    border-top: 0.8px solid rgb(70, 69, 69);
+    border-bottom: 0.8px solid rgb(70, 69, 69);
+}
+#strength{
+    font-size: 14px;
+}
+.premium{
+   
+    height: 15px;
+    width: 15px;
+    font-size: 16px;
+}
+.pre{
+    color: black;
+}
+/* all anchor tag */
+a{
+    text-decoration: none;
+}
+.once{
+    display: flex;
+    gap: 5px;
+    color: black;
+}
+.person{
+    width: 30px;
+    height: 30px;
+}
+.tt{
+    padding-top: 2px;
+    color: #00000099;
+}
+.recent_box{
+    /* margin: 10px; */
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 12px 4px 0 4px;
+}
+.recent_one{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.recent_two{
+    padding-left:5px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.tu{
+    padding-left: 17px;
+}
+.arrow{
+    width: 40px;
+    height: 20px;
+}
+.recent_one_first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recent_three{
+    padding-top: 14px;
+}
+.tu{
+      padding-top: 10px;
+}
+.ek{
+    color: rgb(0, 123, 255);
+  
+    
+}
+
+.recent_three_third{
+    padding:10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.recent_three_second{
+    border-bottom: 0.8px solid rgb(70, 69, 69);
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+#btn{
+    background-color: white;
+    font-size: 14px;
+}
+#my_nam{
+    color:black;
+}
+.content_three_one{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    font-weight: bold;
+    font-size:17px
+}
+.info{
+    width: 20px;
+    height:20px;
+}
+.list_items{
+    font-size: 1.0rem;
+    padding: 10px 10px 0 25px;
+}
+.items{
+    padding: 5px;
+}
+.day{
+    font-size: 12px;
+    color: #00000099;
+}
+.days{
+    color: black;
+    font-weight: bold;
+}
+
+/* .change:hover{
+          background-color: #00000099;
+
+} */
+.profile_box_one{
+    padding:0;
+}
+.dash{
+    padding-left: 6px;
+    padding-top: 2px;
+}
+.once{
+    padding-left: 6px;
+    padding-top: 2px;
+}
+.advertise_mohit{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+#last{
+    text-align:end;
+}
+.box_model{
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+.content_three{
+    background-color: #e9e5df;
+}
+.span_one{
+    font-size: 14.7px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.last_links{
+    line-height: 20px;
+}
+.recent_box{
+    border-radius: 12px;
+}
+.box_third{
+    max-width: 555px;
+}
+
+/* now we make it responsive */
+@media screen and (max-width:1000px){
+    #search{
+        display: none;
+    }
+    .content_one,.content_three{
+        display: none;
+    }
+    .main_content{
+        display: block;
+    }
+    .box_f{
+        padding-left: 0;
+    }
+    .box_s{
+        flex-wrap: wrap;
+    }
+    .content_two{
+        margin:0 auto;
+    }
+    .box_first{
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .edit,#try_now{
+        display: none;
+    }
+   
+}
+/* making head fixed */
+
+/* .inner_head{
+    position:fixed;
+} */
+
+/* here changes can be made */
+
+  .header{
+    position:fixed;
+    left: 280px;
+    top: 0;
+} 
+.main_content{
+    margin-top: 4rem;
+} 
+  
+/* till now */
+
+#my_i{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#new_logo{
+    width: 70px;
+    height: 70px;
+}
+.advertise_mohit{
+    padding: 10px;
+    
+}
+#new_size{
+    font-size: 13px;
+    color: #00000099;
+}
+
+#free_btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    color: blue;
+    margin-top: 14px;
+}
+#last{
+    font-size: 14px;
+}
+.last_links a{
+    color: #00000099;
+}
+.ek:hover,.last_links a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.box_second{
+    text-align: end;
+    margin: 15px;
+    background-color: #e9e5df;
+}
+.content_two{
+    background-color: #e9e5df;
+}
+.box_third{
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 12px;
+}
+#free_btn:hover{
+    transform: scale(1.1);
+}
+/* .header{
+    max-width: 100vw;
+} */
+
+#my_img{
+    left: 275px;
+}
+.dash{
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
+/* #search{
+    width: 350px;
+}
+.header{
+    margin-right: 350px;
+} */
+
+.media{
+    color: #00000099;
+}
+
+.img_1{
+    width: 30px;
+    height: 30px;
+}
+.describe_poki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.liket{
+    width: 25px;
+}
+.poki_btn{
+    background-color: white;
+    font-size: 1.4rem;
+    width: 140px;
+    height: 80px;
+}
+.poki_btn:hover{
+    background-color:#e9e5df;
+    border-radius: 15px;
+}
+.poki_image{
+    text-align: center;
+}
+.pokilogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.poki_name{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.poki_h{
+    display: flex;
+    gap: 30px;
+}
+.poki_image{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.poki_info{
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+.js_inner{
+   
+}
